@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap");
+
+body {
+  max-width: 100%;
+}
+header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 5vh;
+  margin-right: 15px;
+}
+.Nav {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.anchor {
+  margin-right: 5px;
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+}
+.anchor:hover {
+  text-decoration: underline;
+}
+.header-icons {
+  width: 40px;
+  height: 100%;
+}
+.header-img {
+  width: 75%;
+  height: 75%;
+}
+.header-img:hover {
+  border: 1px solid slategray;
+  border-radius: 50%;
+}
+main {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.google-centre {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  height: 300px;
+  margin-top: 150px;
+  flex-direction: column;
+}
+.google-img {
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  height: 32%;
+}
+.input-txt {
+  width: 600px;
+  height: 35px;
+  background: #ffffff;
+  padding: 5px;
+  color: rgb(0, 0, 0);
+  cursor: inherit;
+  border: none;
+  outline: none;
+}
+
+.mic{
+  padding: 10px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.div-search {
+  height: 15%;
+  width: 680px;
+  display: flex;
+  border: 0.3px solid rgb(190, 202, 214);
+  border-radius: 25px;
+  margin-top: 30px;
+}
+#img-search-a {
+  width: 20px;
+  height: 20px;
+  padding: 15px;
+  font-size: 15px;
+  cursor: pointer;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  height: 10vh;
+  width: 100%;
+}
+.footer-anchors {
+  height: 50%;
+  width: 100%;
+  background-color: rgba(226, 223, 223, 0.425);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.location {
+  height: 50%;
+  width: 100%;
+  background-color: rgba(226, 223, 223, 0.425);
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  border-bottom: 0.5px solid rgb(160, 159, 159);
+}
+.footer-anchors-one {
+  height: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 25%;
+  padding-left: 5px;
+}
+.footer-anchors-two {
+  height: 50%;
+  display: flex;
+  align-items:flex-end;
+  justify-content: space-between;
+  width: 12%;
+  padding-right: 5px;
+}
+.btn-google{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 23%;
+  margin-top: 30px;
+}
+.btn1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa;
+  height: 40px;
+  width: 150px;
+  border: 1px solid #dadce0;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn1:hover{
+  background-color: rgb(228, 226, 226);
+  transition-duration: .5s;
+}
